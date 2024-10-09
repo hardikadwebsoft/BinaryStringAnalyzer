@@ -28,3 +28,27 @@ public static void Main(string[] args)
     Console.WriteLine(IsGoodBinaryString("111000")); // False
 }
 
+How It Works
+Prefix Evaluation: The function processes the binary string character by character, keeping track of the count of 0s and 1s. If at any point, the number of 1s becomes less than the number of 0s, it immediately returns false.
+
+Final Validation: If the prefix check passes, the function then checks whether the total number of 0s and 1s are equal. If both conditions are satisfied, the binary string is classified as "good" and the function returns true.
+
+Installation and Setup
+1. Clone this repository:
+
+git clone <your-repository-url>
+
+2. Open the project in your favorite C# IDE (Visual Studio, JetBrains Rider, etc.).
+
+3. Build the project and run the Main method to test the functionality
+
+Author
+Name: Hardik Gohil
+Organization: -
+Role: Software Engineer specializing in microservices and scalable solutions
+Email: hardik.gohil@live.co.uk
+
+
+License
+This project is licensed under the MIT License.
+
