@@ -19,7 +19,7 @@ This function checks if a binary string satisfies the two conditions:
 
 ### Example
 
-
+```csharp
 public static void Main(string[] args)
 {
     Console.WriteLine(IsGoodBinaryString("1100")); // True
@@ -27,6 +27,7 @@ public static void Main(string[] args)
     Console.WriteLine(IsGoodBinaryString("1010")); // False
     Console.WriteLine(IsGoodBinaryString("111000")); // False
 }
+```
 
 ### Steps to Test
 How It Works
