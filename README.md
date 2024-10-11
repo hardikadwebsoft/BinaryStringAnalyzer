@@ -28,6 +28,7 @@ public static void Main(string[] args)
     Console.WriteLine(IsGoodBinaryString("111000")); // False
 }
 
+### Steps to Test
 How It Works
 Prefix Evaluation: The function processes the binary string character by character, keeping track of the count of 0s and 1s. If at any point, the number of 1s becomes less than the number of 0s, it immediately returns false.
 
